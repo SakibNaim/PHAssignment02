@@ -27,11 +27,47 @@
     font-size: 1.275rem;
 }
 
+.navcli1{
+    color: #252432;
+}
 
+.navcli2{
+    color: #8987A1;
+}
 
+.body-hide{
+    display: none;
+}
+
+.navlinks1{
+    flex-direction: row;
+}
+.navcli1{
+    text-decoration: none;
+}
 
 
 /* navber,navber hero section */
+
+.navright{
+    display: flex;
+    gap: 15px;
+}
+.cart-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;   /* space between icon & text */
+   
+   }
+
+   .cart-wrapper i {
+    font-size: 20px;
+    }
+
+  .cart-text {
+    font-size: 16px;
+    text-wrap: none;
+   }
 
 .navnar{
     padding: 30px 150px 120px 30px;
@@ -46,7 +82,11 @@
 
 }
 
-.navlinks a{
+.navcli2{
+    text-decoration: none;
+}
+
+.navlinks1 a{
     text-decoration: none;
 
 }
@@ -68,5 +108,113 @@
 
 .img-logo2 img{
     width: 100%;
+
+}
+/* product section */
+.product-etx{
+    align-items: center;
+    text-align: center;
+}
+
+.ptitle{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.hclo{
+    color: #E95A08;
+    
+}
+.text{
+    margin-bottom: 40px;
+}
+
+.product-segment{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+   
+}
+
+.product-content{
+    gap:10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+/* responsive for mobile */
+/* hero section */
+@media (max-width: 798px){
+
+    .navlinks{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+       
+    }
+
+    .navlinks1{
+        flex-wrap: nowrap;
+        padding-left: 120px;
+      
+    }
+    .hero-main {
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .img-logo2 img{
+        width: 100%;
+    }
+    .wrap{
+
+        flex-wrap: none;
+    }
+    .hero-main {
+        align-items: center;
+      
+        padding: 30px;
+    }
+
+    .cart-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    /* padding: auto; 
+    margin: auto;  */
+
+ 
+   
+   
+   }
+   .navright{
+    justify-content: space-between;
+    padding: 0px;
+    margin-left: 190px;
+    margin-right: 1px;
+   }
+    .cart-wrapper i {
+    font-size: 14px;
+    }
+    .cart-text{
+        font-size: 13px;
+        text-wrap: none;
+        width: 50px;
+    }
+
+
+
+
+
+
+  
+    
+
+   
+
+
+
 
 }
