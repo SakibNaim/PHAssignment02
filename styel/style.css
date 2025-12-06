@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* font-use */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-noto {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.bgcbody{
+    background-color: #F5F8FF;
+}
+
+.dispay-item{
+    display: flex;
+}
+.text-primary-01{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.275rem;
+}
+
+
+
+
+
+/* navber,navber hero section */
+
+.navnar{
+    padding: 30px 150px 120px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navright ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap:45px
+
+}
+
+.navlinks a{
+    text-decoration: none;
+
+}
+
+.hero-main{
+     padding: 30px 150px 120px 30px;
+     align-items: center;
+
+
+}
+.title-hero{
+    font-size: 3.0625rem;
+    margin-bottom: 12px;
+
+}
+.stp{
+    color: #E95A08;
+}
+
+.img-logo2 img{
+    width: 100%;
+
+}
